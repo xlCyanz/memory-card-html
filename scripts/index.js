@@ -11,78 +11,44 @@ let cardsID = [];
 let cardsSelected = [];
 
 const cardsArray = [{
-        name: "Estrellas Orientales",
-        image: "./images/eo.jpg",
-    },
-    {
-        name: "Estrellas Orientales",
-        image: "./images/eo.jpg",
-    },
-    {
-        name: "Tigres del Licey",
-        image: "./images/licey.png",
-    },
-    {
-        name: "Tigres del Licey",
-        image: "./images/licey.png",
-    },
-    {
-        name: "Gigantes del Cibao",
-        image: "./images/gigantes.png",
-    },
-    {
-        name: "Gigantes del Cibao",
-        image: "./images/gigantes.png",
-    },
-    {
-        name: "Toros del este",
-        image: "./images/toros.png",
-    },
-    {
-        name: "Toros del este",
-        image: "./images/toros.png",
-    },
-    {
-        name: "Aguilas Cibaenas",
-        image: "./images/aguilas.png",
-    },
-    {
-        name: "Aguilas Cibaenas",
-        image: "./images/aguilas.png",
-    },
-    {
-        name: "Leones del Escogido",
-        image: "./images/escogido.png",
-    },
-    {
-        name: "Leones del Escogido",
-        image: "./images/escogido.png",
-    },
-    {
-        name: "Mi Foto",
-        image: "./images/photo.jpeg",
-    },
-    {
-        name: "Mi Foto",
-        image: "./images/photo.jpeg",
-    },
-    {
-        name: "ITLA",
-        image: "./images/itla.jpg",
-    },
-    {
-        name: "ITLA",
-        image: "./images/itla.jpg",
-    },
-    {
-        name: "Amadis",
-        image: "./images/amadis.png",
-    },
-    {
-        name: "Amadis",
-        image: "./images/amadis.png",
-    },
+    name: "Estrellas Orientales",
+    image: "./images/eo.jpg",
+},
+{
+    name: "Tigres del Licey",
+    image: "./images/licey.png",
+},
+{
+    name: "Gigantes del Cibao",
+    image: "./images/gigantes.png",
+},
+{
+    name: "Toros del este",
+    image: "./images/toros.png",
+},
+{
+    name: "Aguilas Cibaenas",
+    image: "./images/aguilas.png",
+},
+{
+    name: "Leones del Escogido",
+    image: "./images/escogido.png",
+},
+{
+    name: "Mi Foto",
+    image: "./images/photo.jpeg",
+},
+{
+    name: "ITLA",
+    image: "./images/itla.jpg",
+},
+{
+    name: "Amadis",
+    image: "./images/amadis.png",
+}
 ];
+
+cardsArray.push(...cardsArray);
 
 /**
  * When receiving by parameter the array to iterate and the HTML Element
